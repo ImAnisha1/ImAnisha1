@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Contact_Highlights</fullName>
+    <fields>AccountId</fields>
+    <fields>Email</fields>
+    <fields>Fax</fields>
+    <fields>HomePhone</fields>
+    <fields>Birthdate</fields>
+    <fields>GenderIdentity</fields>
+    <label>Custom Contact Highlights</label>
+</CompactLayout>
