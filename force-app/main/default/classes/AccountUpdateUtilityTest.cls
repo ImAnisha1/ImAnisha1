@@ -22,8 +22,8 @@ public class AccountUpdateUtilityTest {
 
         // Step 3: Verify results
         List<Account> updatedAccounts = [SELECT Id, Industry FROM Account WHERE Id IN :testAccountIds];
-        for (Account acc : updatedAccounts) {
-            System.assertEquals('Technology', acc.Industry, 'The industry should be updated to Technology');
+        for (Account acc1 : updatedAccounts) {
+            System.assertEquals('Technology', acc1.Industry, 'The industry should be updated to Technology');
         }
     }
 }
